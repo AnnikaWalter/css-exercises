@@ -7,6 +7,8 @@ body {
   background: #eee;
   font-family: Besley, serif;
   border: 2px solid orange;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header {
@@ -14,6 +16,9 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   border: 2px solid yellow;
+  display: flex;
+  
+  
 }
 
 .profile-image {
@@ -23,6 +28,8 @@ body {
   width: 48px;
   height: 48px;
   border: 2px solid blue;
+  margin: 10px;
+  
 }
 
 .logo {
@@ -31,6 +38,7 @@ body {
   font-weight: 900;
   font-style: italic;
   border: 2px solid lightgreen;
+  margin-right: 15px;
 }
 
 button {
@@ -39,7 +47,11 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-  border: 2px solid black;
+  border: 2px solid lightskyblue;
+   justify-items: space-around;
+   margin: 10px;
+  
+  
 }
 
 a {
@@ -47,8 +59,31 @@ a {
   text-decoration: none;
   color: rebeccapurple;
   border: 2px solid red;
+  display: flex;
 }
 
 ul {
   list-style-type: none;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  border: 2px solid grey;
+  padding: 10px
+  
+}
+
+.links {
+  display: flex;
+  border: 2px solid brown;
+  margin: 10px;
+  padding-left: 0px;
+  gap: 20px;
+}
+
+.right {
+  display: flex;
+  border: 2px solid black;
+  align-items: center;
 }
