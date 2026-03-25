@@ -10,26 +10,19 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
-  border: 2px solid blue;
   display: flex;
   justify-content: center;
   padding-bottom: 32px;
-
-}
-
-
-.all {
-border: 2px solid black;
 }
 
 .plants {
-border: 2px solid red;
 display: flex;
 gap: 52px;
+margin-left: 20px;
+margin-right: 20px;
 }
 
 .plant-box {
-border: 2px solid green;
 width: 200px;
 display: flex;
 flex-direction: column;
@@ -41,6 +34,7 @@ justify-content: center;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
+  padding-top: 5px;
 }
 
 
