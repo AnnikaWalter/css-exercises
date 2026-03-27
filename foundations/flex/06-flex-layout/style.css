@@ -5,6 +5,7 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
 }
 
 img {
@@ -36,14 +37,22 @@ input {
 .right-links {
   border: 2px solid orange
 }
-
 .content {
   border: 2px solid red;
 }
 
+.input {
+  border: 2px solid greenyellow;
+}
+
 .buttons {
+  border: 2px solid black;
 }
 
 .footer {
   border: 2px solid blue;
+}
+
+li {
+  list-style-type: none;
 }
