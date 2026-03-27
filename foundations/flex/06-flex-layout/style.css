@@ -24,3 +24,26 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+.header {
+  border: 2px solid green;
+}
+
+.left-links {
+  border: 2px solid violet;
+}
+
+.right-links {
+  border: 2px solid orange
+}
+
+.content {
+  border: 2px solid red;
+}
+
+.buttons {
+}
+
+.footer {
+  border: 2px solid blue;
+}
