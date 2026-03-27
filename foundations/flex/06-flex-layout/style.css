@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   border: 2px solid yellow;
+  justify-content: space-between;
 }
 
 img {
@@ -91,9 +92,12 @@ li {
 a {
     text-decoration: none;
     color: gray;
-
 }
 
 .main {
   flex:1;
+}
+
+.middle {
+  border: 2px solid black;
 }
