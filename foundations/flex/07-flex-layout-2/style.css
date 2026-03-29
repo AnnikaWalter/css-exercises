@@ -10,7 +10,6 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
-  border: 2px solid red;
   font-size: 32px;
   font-weight: 900;
   display: flex;
@@ -20,7 +19,6 @@ body {
 }
 
 .main {
-  border: 2px solid orange;
   flex: 1;
   display: flex;
 }
@@ -29,7 +27,6 @@ body {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  border: 2px solid green;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,17 +63,17 @@ a.visited {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
   display: flex;
-  width: 300px;
+  width: 350px;
   height: 350px;
-  padding: 48px;
+  padding: 18px;
+
 }
 
 .cards {
-  border: 2px solid black;
   display: flex;
   flex-direction: row;
   align-content: flex-start;
-  gap: 10px;
+  gap: 35px;
   padding: 48px; 
   flex-wrap: wrap;
 }
